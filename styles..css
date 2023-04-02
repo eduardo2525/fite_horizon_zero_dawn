@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: rgba(58, 49, 49, 0.884);
+    height: 100px;
+    padding: 16px 0px;
+    color: #ecf0f1;
+}
+
+header h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h2, h3,
+input {
+    font-family: 'Alkatra', cursive;
+}
+button, textarea {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+header nav li a {
+    font-family: 'Alkatra', cursive;
+    text-decoration: none;
+    color: #ecf0f1;
+}
+
+li a:hover {
+    background: white;
+    width: 100%;
+    height: 100px;
+    border-radius: 30px;
+    color: black;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+#Sobre, img {
+    height: 450px;
+    padding: 30px 10px;
+}
+.container div {
+    display: block;
+    padding: 10px ;
+}
+
+#Sobre, 
+div h2, p {
+    margin-bottom: 10px;
+}
+
+.listas li img {
+    height: 150px;
+}
+
+.listas {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-saiba-mais {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+#Saiba-mais {
+    margin-top: 60px;
+    display: flex;
+}
+
+#Saiba-mais h2 {
+    position: absolute;
+}
+
+.personagens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure {
+    display: flex;
+    width: 600px;
+    margin-top: 30px;
+    padding: 0px 5px;
+
+}
+
+figure h3 {
+    position: relative;
+    top: 30px;
+    left: 130px;
+}
+
+figure p {
+    position: relative;
+    top: 60px;
+}
+#esperiencia {
+    max-width: 1280px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(imagens/horizon\ zero\ dawn-brackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#esperiencia .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+
+#formulario h2 {
+    margin-left: 40px;
+    color: white;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 350px;
+    margin-bottom: 8px;
+    padding: 7px;
+}
+
+form button:hover {
+    background: navy;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+.redes-sociais img {
+    height: 100px;
+}
+
+.redes-sociais li {
+    list-style: none;
+    display: inline;
+}
+
+.redes-sociais {
+    text-align: center;
+    color: white;
+}
+
+.redes-sociais ul {
+    cursor: pointer;
+    height: 20px;
+}
+footer {
+    padding: 5px;
+    font-size: 30px;
+    color: #ecf0f1;
+    background: rgba(58, 49, 49, 0.884);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(160, 160, 224);
+}
+
+
+

@@ -1,3 +1,14 @@
+const hamburguer = document.querySelector('.hamburguer');
+const nav = document.querySelector('nav');
+
+hamburguer.addEventListener('click', function() {
+    if (nav.classList.contains('aparecer')) {
+        nav.classList.remove('aparecer');
+    } else {
+        nav.classList.add('aparecer');
+    }
+});
+
 document.querySelector('a[href="#Sobre"]').addEventListener('click', function (e) {
     e.preventDefault();
     setTimeout(function() {

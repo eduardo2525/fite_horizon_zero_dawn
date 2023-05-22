@@ -202,8 +202,14 @@ input:focus, textarea:focus {
     }
     nav > ul > li {
         display: flex;
-        
         margin: 0;
+    }
+    li a:hover {
+        background: white;
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        color: black;
     }
     .hamburguer {
         margin: auto;

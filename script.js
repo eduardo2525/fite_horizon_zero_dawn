@@ -1,3 +1,9 @@
+$(document).ready(function(){
+    $(carrossel).slick({
+        autoplay:true,
+    })
+})
+
 const hamburguer = document.querySelector('.hamburguer');
 const nav = document.querySelector('nav');
 

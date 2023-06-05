@@ -11,6 +11,12 @@ header {
     color: #ecf0f1;
 }
 
+.container > #carrossel, #img_carrossel {
+    width: 95%;
+    margin: auto;
+    position: relative;
+}
+
 header h1 {
     font-family: 'IBM Plex Sans', sans-serif;
 }
@@ -64,6 +70,10 @@ header nav li {
 .container div {
     display: block;
     padding: 10px ;
+}
+
+#Sobre {
+    padding: 0;
 }
 
 #Sobre, 
@@ -240,6 +250,11 @@ input:focus, textarea:focus {
         width: 100%;
         height: 100%;
     }
+    .container > #carrossel, #img_carrossel {
+        width: 100%;
+        margin: auto;
+        z-index: -1;
+    }
     #Sobre {
         height: 100%;
     }
@@ -415,6 +430,5 @@ input:focus, textarea:focus {
         left: 0;
         text-align: center;
         width: 100%;
-        background-color: red;
     }
 }

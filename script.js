@@ -1,6 +1,8 @@
 $(document).ready(function(){
-    $(carrossel).slick({
+    $("#carrossel").slick({
         autoplay:true,
+        slidesToShow: 1,
+        slidesToScroll: 1
     })
 })
 

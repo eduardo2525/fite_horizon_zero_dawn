@@ -14,8 +14,8 @@ header {
     max-width: 1280px;
     margin: auto;
 }
-.container_deskitop > #carrossel, #img_carrossel {
-    width: 95%;
+.container_deskitop > #carrossel {
+    width: 100%;
     margin: auto;
 }
 

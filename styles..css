@@ -10,11 +10,13 @@ header {
     padding: 16px 0px;
     color: #ecf0f1;
 }
-
-.container > #carrossel, #img_carrossel {
+.container_deskitop {
+    max-width: 1280px;
+    margin: auto;
+}
+.container_deskitop > #carrossel, #img_carrossel {
     width: 95%;
     margin: auto;
-    
 }
 
 header h1 {
@@ -187,6 +189,9 @@ input:focus, textarea:focus {
 }
 
 @media screen and (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+    }
     header > .container {
         padding: 0;
         width: 100%;
@@ -316,6 +321,9 @@ input:focus, textarea:focus {
 }
 
 @media screen and (min-width:768px) and (max-width: 1023px){
+    body {
+        overflow-x: hidden;
+    }
     header {
         width: 100%;
     }
@@ -371,6 +379,9 @@ input:focus, textarea:focus {
     }
 }
 @media screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape){
+    body {
+        overflow-x: hidden;
+    }
     #container > ul {
         width: 100%;
     }
@@ -384,6 +395,9 @@ input:focus, textarea:focus {
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1267px) {
+    body {
+        overflow-x: hidden;
+    }
     header {
         width: 100%;
     }
